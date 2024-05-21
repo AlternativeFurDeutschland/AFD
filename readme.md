@@ -9,8 +9,11 @@ The purpose of creating this website is to provide information and raise awarene
 ## Why I Created This Website
 I created this website to contribute to the ongoing dialogue about political extremism and its implications for society. As a concerned citizen, I believe it's essential to address and confront ideologies that undermine democratic values and social cohesion. By creating this website, I hope to empower individuals with knowledge and encourage active engagement in shaping a more inclusive and democratic future.
 
+## Accessing the Website
+You can access the website by opening the `index.html` file in any web browser. Additionally, the website is hosted online and can be reached at [antiafd.vercel.app](https://antiafd.vercel.app). Feel free to explore the content and share it with others who might benefit from understanding the issues surrounding the AfD and similar right-wing parties.
+
 ## Usage
-You can access the website by opening the index.html file in any web browser. Feel free to explore the content and share it with others who might benefit from understanding the issues surrounding the AfD and similar right-wing parties.
+Explore the website to understand the various issues associated with the AfD. Share the link with others to spread awareness and encourage informed discussions.
 
 ## Contributing
 If you have suggestions for improving the content or design of the website, please feel free to submit a pull request. Your contributions are welcome and appreciated in furthering the website's mission of promoting awareness and understanding of political extremism.

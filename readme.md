@@ -10,7 +10,7 @@ The purpose of creating this website is to provide information and raise awarene
 I created this website to contribute to the ongoing dialogue about political extremism and its implications for society. As a concerned citizen, I believe it's essential to address and confront ideologies that undermine democratic values and social cohesion. By creating this website, I hope to empower individuals with knowledge and encourage active engagement in shaping a more inclusive and democratic future.
 
 ## Accessing the Website
-You can access the website by opening the `index.html` file in any web browser. Additionally, the website is hosted online and can be reached at [AntiAFD.vercel.app](https://antiafd.vercel.app) or [alternativefürdeutschland.github.io/Anti-AFD/](https://alternativefurdeutschland.github.io/Anti-AFD/). Feel free to explore the content and share it with others who might benefit from understanding the issues surrounding the AfD and similar right-wing parties.
+You can access the website by opening the `index.html` file in any web browser. Additionally, the website is hosted online and can be reached at [AntiAFD.vercel.app](https://antiafd.vercel.app) or [AlternativeFürDeutschland.github.io/Anti-AFD/](https://alternativefurdeutschland.github.io/Anti-AFD/). Feel free to explore the content and share it with others who might benefit from understanding the issues surrounding the AfD and similar right-wing parties.
 
 ## Usage
 Explore the website to understand the various issues associated with the AfD. Share the link with others to spread awareness and encourage informed discussions.

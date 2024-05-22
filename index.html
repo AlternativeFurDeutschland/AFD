@@ -4,35 +4,85 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Probleme mit der AfD</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="afd-logo.png">
     <script src="script.js" defer></script>
 </head>
 <body>
     <header>
-        <img src="afd-logo.png" alt="AfD Logo" class="logo">
-        <h1>Warum die AfD problematisch für das moderne Deutschland ist</h1>
+        <nav class="navbar">
+            <img src="afd-logo.png" alt="AfD Logo" class="logo">
+            <ul class="nav-links">
+                <li><a href="#intro">Einführung</a></li>
+                <li><a href="#issues">Probleme</a></li>
+                <li><a href="#why-not-right-wing">Warum Nicht Rechts</a></li>
+                <li><a href="#solutions">Lösungen</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <h1>Warum die AfD problematisch für das moderne Deutschland ist</h1>
+        </div>
     </header>
     <main>
-        <section id="intro">
-            <p>Es ist wichtig anzuerkennen, dass nicht alle politischen Parteien perfekt sind und dass unterschiedliche Ansichten und Ideologien existieren. Jedoch gibt es auch Parteien wie die Alternative für Deutschland (AfD), deren Ansichten und Handlungen einfach nicht akzeptabel sein sollten.</p>
-            <p>Die AfD hat sich durch ihre fremdenfeindliche Rhetorik, ihre Untergrabung demokratischer Werte und ihre extremistischen Positionen als eine solche Partei etabliert. Seit ihrer Gründung im Jahr 2013 hat die AfD für Kontroversen gesorgt und sich als politische Kraft etabliert, die weit rechts vom politischen Spektrum angesiedelt ist.</p>
+        <section id="intro" class="section">
+            <div class="content">
+                <h2>Einführung</h2>
+                <p>Es ist wichtig anzuerkennen, dass nicht alle politischen Parteien perfekt sind und dass unterschiedliche Ansichten und Ideologien existieren. Jedoch gibt es auch Parteien wie die Alternative für Deutschland (AfD), deren Ansichten und Handlungen einfach nicht akzeptabel sein sollten.</p>
+                <p>Die AfD hat sich durch ihre fremdenfeindliche Rhetorik, ihre Untergrabung demokratischer Werte und ihre extremistischen Positionen als eine solche Partei etabliert. Seit ihrer Gründung im Jahr 2013 hat die AfD für Kontroversen gesorgt und sich als politische Kraft etabliert, die weit rechts vom politischen Spektrum angesiedelt ist.</p>
+            </div>
         </section>
-        <section id="issues">
-            <h2>Probleme mit der AfD</h2>
-            <ul>
-                <li>Fördert Fremdenfeindlichkeit und Intoleranz durch die Verbreitung rassistischer und nationalistischer Ideologien.</li>
-                <li>Untergräbt demokratische Werte, indem sie die Unabhängigkeit der Medien und des Rechtssystems in Frage stellt und autoritäre Tendenzen fördert.</li>
-                <li>Verharmlost den Klimawandel und blockiert effektive Maßnahmen zum Umweltschutz, was langfristig schwerwiegende Folgen für die Umwelt und kommende Generationen haben kann.</li>
-                <li>Verwendet spalterische Rhetorik, um die Gesellschaft zu polarisieren und Konflikte zwischen verschiedenen Bevölkerungsgruppen zu schüren.</li>
-                <li>Bagatellisiert den Nationalsozialismus und die Verbrechen des Holocaust, was eine Gefahr für die historische Aufarbeitung und das Gedenken an die Opfer darstellt.</li>
-                <li>Fordert wirtschaftliche Abschottung und nationalistische Wirtschaftspolitik, die den globalen Handel behindert und die wirtschaftliche Entwicklung beeinträchtigen kann.</li>
-            </ul>
+        <section id="issues" class="section">
+            <div class="content">
+                <h2>Probleme mit der AfD</h2>
+                <div class="cards">
+                    <div class="card">
+                        <h3>Fremdenfeindlichkeit</h3>
+                        <p>Fördert Fremdenfeindlichkeit und Intoleranz durch die Verbreitung rassistischer und nationalistischer Ideologien.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Demokratische Werte</h3>
+                        <p>Untergräbt demokratische Werte, indem sie die Unabhängigkeit der Medien und des Rechtssystems in Frage stellt und autoritäre Tendenzen fördert.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Klimawandel</h3>
+                        <p>Verharmlost den Klimawandel und blockiert effektive Maßnahmen zum Umweltschutz, was langfristig schwerwiegende Folgen für die Umwelt und kommende Generationen haben kann.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Spalterische Rhetorik</h3>
+                        <p>Verwendet spalterische Rhetorik, um die Gesellschaft zu polarisieren und Konflikte zwischen verschiedenen Bevölkerungsgruppen zu schüren.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Nationalsozialismus</h3>
+                        <p>Bagatellisiert den Nationalsozialismus und die Verbrechen des Holocaust, was eine Gefahr für die historische Aufarbeitung und das Gedenken an die Opfer darstellt.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Wirtschaftspolitik</h3>
+                        <p>Fordert wirtschaftliche Abschottung und nationalistische Wirtschaftspolitik, die den globalen Handel behindert und die wirtschaftliche Entwicklung beeinträchtigen kann.</p>
+                    </div>
+                </div>
+            </div>
         </section>
-        <section id="why-not-right-wing">
-            <h2>Warum rechte Parteien heutzutage nicht hilfreich sind</h2>
-            <p>Rechte Parteien wie die AfD setzen oft auf einfache Lösungen für komplexe Probleme und schüren Ängste und Vorurteile, anstatt konstruktive und inklusive Politik zu betreiben. Dies führt zu einer weiteren Spaltung der Gesellschaft und einem Rückgang des sozialen Zusammenhalts.</p>
-            <p>Außerdem stehen viele rechte Parteien im Widerspruch zu den Grundwerten der Demokratie, wie Meinungsfreiheit, Gleichheit und Rechtsstaatlichkeit. Sie setzen auf autoritäre Maßnahmen und Einschränkungen der Bürgerrechte, um ihre Macht zu festigen und politische Gegner zu unterdrücken.</p>
-            <p>Um die Herausforderungen der heutigen Zeit erfolgreich zu bewältigen, ist eine progressive und inklusive Politik erforderlich, die auf Zusammenarbeit, Toleranz und Respekt vor den Menschenrechten basiert. Rechte Parteien wie die AfD stehen diesem Ziel oft im Weg und tragen zur Spaltung und Destabilisierung der Gesellschaft bei.</p>
+        <section id="why-not-right-wing" class="section">
+            <div class="content">
+                <h2>Warum rechte Parteien heutzutage nicht hilfreich sind</h2>
+                <p>Rechte Parteien wie die AfD setzen oft auf einfache Lösungen für komplexe Probleme und schüren Ängste und Vorurteile, anstatt konstruktive und inklusive Politik zu betreiben. Dies führt zu einer weiteren Spaltung der Gesellschaft und einem Rückgang des sozialen Zusammenhalts.</p>
+                <p>Außerdem stehen viele rechte Parteien im Widerspruch zu den Grundwerten der Demokratie, wie Meinungsfreiheit, Gleichheit und Rechtsstaatlichkeit. Sie setzen auf autoritäre Maßnahmen und Einschränkungen der Bürgerrechte, um ihre Macht zu festigen und politische Gegner zu unterdrücken.</p>
+                <p>Um die Herausforderungen der heutigen Zeit erfolgreich zu bewältigen, ist eine progressive und inklusive Politik erforderlich, die auf Zusammenarbeit, Toleranz und Respekt vor den Menschenrechten basiert. Rechte Parteien wie die AfD stehen diesem Ziel oft im Weg und tragen zur Spaltung und Destabilisierung der Gesellschaft bei.</p>
+            </div>
+        </section>
+        <section id="solutions" class="section">
+            <div class="content">
+                <h2>Lösungen und positive Schritte</h2>
+                <p>Um die Herausforderungen anzugehen, die durch extreme politische Ansichten entstehen, sind folgende Maßnahmen erforderlich:</p>
+                <ul>
+                    <li><strong>Förderung von Toleranz und Inklusion:</strong> Programme zur Förderung des interkulturellen Dialogs und der sozialen Integration sind entscheidend.</li>
+                    <li><strong>Stärkung demokratischer Institutionen:</strong> Unabhängige Medien und ein starkes Rechtssystem sind grundlegende Pfeiler einer funktionierenden Demokratie.</li>
+                    <li><strong>Umwelt- und Klimaschutz:</strong> Nachhaltige Politiken und Technologien zur Bekämpfung des Klimawandels müssen priorisiert werden.</li>
+                    <li><strong>Bildung und Aufklärung:</strong> Bildungsprogramme zur Vermittlung von historischen Fakten und demokratischen Werten sind unerlässlich, um Extremismus entgegenzuwirken.</li>
+                </ul>
+                <p>Indem wir uns auf diese positiven Schritte konzentrieren, können wir eine stärkere, gerechtere und nachhaltigere Gesellschaft aufbauen.</p>
+            </div>
         </section>
     </main>
     <footer>

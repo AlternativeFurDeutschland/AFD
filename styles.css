@@ -2,70 +2,69 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+  }
 
-body {
-    font-family: 'Inter', sans-serif;
+  body {
+    font-family: 'Arial', sans-serif; 
     background-color: #f5f8fa;
     color: #333;
     line-height: 1.6;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-}
+  }
 
-.navbar {
+  .navbar {
     background: #0056b3;
     color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 10px 20px; 
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
 
-.navbar .logo {
+  }
+
+  .navbar-title {
+    background-color: #f0f8fa; 
+    padding: 10px 20px;
+    border-radius: 5px; 
+    margin: 0 10px; 
+    font-size: 13px;
+    text-align: center;
+  }
+
+  .navbar h1 {
+    font-size: 1.25rem; 
+    margin-bottom: 0; 
+
+  }
+
+  .navbar .logo {
     width: 50px;
-}
+  }
 
-.navbar .nav-links {
+  .navbar .nav-links {
     list-style: none;
     display: flex;
-}
+  }
 
-.navbar .nav-links li {
+  .navbar .nav-links li {
     margin-left: 20px;
-}
+  }
 
-.navbar .nav-links a {
+  .navbar .nav-links a {
     color: white;
     text-decoration: none;
     font-weight: 600;
     transition: color 0.3s ease;
-}
+  }
 
-.navbar .nav-links a:hover {
+  .navbar .nav-links a:hover {
     color: #ffd700;
-}
+  }
 
-.hero {
-    background: linear-gradient(135deg, #007BFF 0%, #0056b3 100%);
-    color: white;
-    padding: 60px 20px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
-.hero h1 {
-    font-size: 2.5rem;
-    font-weight: 700;
-}
-
-main {
+  main {
     flex: 1;
     padding: 40px 20px;
     max-width: 1000px;
@@ -75,69 +74,69 @@ main {
     border-radius: 8px;
     border: 1px solid #e1e4e8;
     text-align: left;
-}
+  }
 
-.section {
+  .section {
     margin-bottom: 40px;
-}
+  }
 
-.section .content {
+  .section .content {
     padding: 20px;
-}
+  }
 
-h2 {
+  h2 {
     color: #0056b3;
-    font-size: 2rem;
+    font-size: 1.75rem; 
     margin-bottom: 20px;
     border-bottom: 2px solid #0056b3;
     padding-bottom: 10px;
-}
+  }
 
-.cards {
+  .cards {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 20px;
-}
+  }
 
-.card {
+  .card {
     background: #f5f8fa;
     border: 1px solid #e1e4e8;
     border-radius: 8px;
     padding: 20px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
     transition: transform 0.3s ease;
-}
+  }
 
-.card:hover {
+  .card:hover {
     transform: translateY(-5px);
-}
+  }
 
-.card h3 {
+  .card h3 {
     color: #0056b3;
-    font-size: 1.5rem;
+    font-size: 1.25rem; 
     margin-bottom: 10px;
-}
+  }
 
-.card p {
+  .card p {
     font-size: 1rem;
     color: #333;
-}
+  }
 
-footer {
+  footer {
     background-color: #0056b3;
     color: white;
     text-align: center;
     padding: 20px;
     border-top: 3px solid #0056b3;
     box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.1);
-}
+  }
 
-footer p {
+  footer p {
     margin: 5px 0;
     font-size: 0.9rem;
-}
+  }
 
-button {
+  button {
     background-color: #0056b3;
     color: white;
     border: none;
@@ -145,37 +144,37 @@ button {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-}
+  }
 
-button:hover {
+  button:hover {
     background-color: #003366;
-}
+  }
 
-button:focus {
+  button:focus {
     outline: none;
     box-shadow: 0 0 0 3px rgba(0, 86, 179, 0.5);
-}
+  }
 
-::selection {
+  ::selection {
     background: rgba(0, 86, 179, 0.3);
     color: white;
-}
+  }
 
-@media (max-width: 768px) {
+  @media (max-width: 768px) {
     .navbar .nav-links {
-        display: none;
+      display: none;
     }
 
     .hero h1 {
-        font-size: 1.75rem;
+      font-size: 1.5rem;
     }
 
     main {
-        padding: 20px;
-        margin: 10px;
+      padding: 20px;
+      margin: 10px;
     }
 
     footer {
-        padding: 10px;
+      padding: 10px;
     }
-}
+  }
